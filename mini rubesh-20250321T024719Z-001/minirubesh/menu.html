@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h2 id="userDisplay">Welcome, Guest</h2>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <div class="menu-container">
+        <h2>Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\burger.jpeg" alt="Burger">
+                <h3>Burger</h3>
+                <p>₹99</p>
+                <button onclick="addToCart('Burger', 99)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\pizza.jpeg" alt="pizza">
+                <h3>pizza</h3>
+                <p>₹249</p>
+                <button onclick="addToCart('Pizza', 249)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\freidchicken.jpeg" alt="Fried Chicken">
+                <h3>Fried Chicken</h3>
+                <p>₹199</p>
+                <button onclick="addToCart('Fried Chicken', 199)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\frenchfries.jpeg" alt="French Fries">
+                <h3>French Fries</h3>
+                <p>₹89</p>
+                <button onclick="addToCart('French Fries', 89)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\softdrink.jpeg" alt="Soft Drink">
+                <h3>Soft Drink</h3>
+                <p>₹49</p>
+                <button onclick="addToCart('Soft Drink', 49)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\milkshake.jpeg" alt="Milkshake">
+                <h3>Milkshake</h3>
+                <p>₹129</p>
+                <button onclick="addToCart('Milkshake', 129)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\sandwich.jpeg" alt="Sandwich">
+                <h3>Sandwich</h3>
+                <p>₹119</p>
+                <button onclick="addToCart('Sandwich', 119)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\nuggets.jpeg" alt="Nuggets">
+                <h3>Nuggets</h3>
+                <p>₹149</p>
+                <button onclick="addToCart('Nuggets', 149)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\momos.jpeg" alt="Momos">
+                <h3>Momos</h3>
+                <p>₹99</p>
+                <button onclick="addToCart('Momos', 99)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\pasta.jpeg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>₹169</p>
+                <button onclick="addToCart('Pasta', 169)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\icecream.jpeg" alt="Ice Cream">
+                <h3>Ice Cream</h3>
+                <p>₹79</p>
+                <button onclick="addToCart('Ice Cream', 79)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\choco lava cake.jpeg" alt="Choco Lava Cake">
+                <h3>Choco Lava Cake</h3>
+                <p>₹149</p>
+                <button onclick="addToCart('Choco Lava Cake', 149)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\hot dog.jpeg" alt="Hot Dog">
+                <h3>Hot Dog</h3>
+                <p>₹139</p>
+                <button onclick="addToCart('Hot Dog', 139)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\sandwich.jpeg" >
+                <h3>Club Sandwich</h3>
+                <p>₹179</p>
+                <button onclick="addToCart('Club Sandwich', 179)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\gralic bread.jpeg" alt="Garlic Bread">
+                <h3>Garlic Bread</h3>
+                <p>₹99</p>
+                <button onclick="addToCart('Garlic Bread', 99)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\sizzler.jpeg" alt="Sizzler">
+                <h3>Sizzler</h3>
+                <p>₹249</p>
+                <button onclick="addToCart('Sizzler', 249)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\cheese balls.jpeg" alt="Cheese Balls">
+                <h3>Cheese Balls</h3>
+                <p>₹129</p>
+                <button onclick="addToCart('Cheese Balls', 129)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\cupcake.jpeg" alt="Cupcake">
+                <h3>Cupcake</h3>
+                <p>₹89</p>
+                <button onclick="addToCart('Cupcake', 89)">Add to Cart</button>
+            </div>:
+
+            <div class="menu-item">
+                <img src="C:\Users\Pc\Downloads\mini rubesh-20250321T024719Z-001\minirubesh\images\donuts.jpeg" alt="Donuts">
+                <h3>Donuts</h3>
+                <p>₹119</p>
+                <button onclick="addToCart('Donuts', 119)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-summary">
+        <h3>Cart: <span id="cartCount">0</span> items | Total: <span id="cartTotal">₹0</span></h3>
+        <button onclick="goToCart()">View Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

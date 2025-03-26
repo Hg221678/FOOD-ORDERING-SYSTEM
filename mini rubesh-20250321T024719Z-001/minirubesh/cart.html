@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Food Ordering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+    <h3>Total: <span id="cartTotal">₹0</span></h3>
+
+
+
+    <button onclick="goToPayment()">Proceed to Payment</button>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("savedAddress").innerText = localStorage.getItem("deliveryAddress") || "Not provided";
+    </script>
+</body>
+</html>
